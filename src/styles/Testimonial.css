@@ -1,0 +1,73 @@
+.testimonial-card {
+    width: 100%; /*Adjust width as needed*/
+    height: 100%; /*Adjust height as needed */
+    /* margin: 0 10px; /*Adjust horizontal margin as needed */
+  }
+  
+  .testimonial-content {
+    /* Adjust background, padding, and border radius styles here */
+    height: 350px;
+    /* width: 300px; */
+    margin: 5px;
+  }
+
+
+  /* Add this CSS file or update your existing one */
+
+.testimonial-card {
+  padding: 16px;
+}
+
+.testimonial-content {
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-content p {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-container img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.flex-container .testimonial-details {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .testimonial-content {
+    padding: 15px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-container .testimonial-details {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+.container {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+  

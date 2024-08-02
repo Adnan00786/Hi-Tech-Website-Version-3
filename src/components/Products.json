@@ -1,0 +1,27 @@
+[
+    {
+      "image": "https://via.placeholder.com/300",
+      "brand": "Brand A",
+      "subtitle": "A great product from Brand A",
+      "description": "Description for product from Brand A"
+    },
+    {
+      "image": "https://via.placeholder.com/300",
+      "brand": "Brand B",
+      "subtitle": "A great product from Brand B",
+      "description": "Description for product from Brand B"
+    },
+    {
+      "image": "https://via.placeholder.com/300",
+      "brand": "Brand C",
+      "subtitle": "A great product from Brand C",
+      "description": "Description for product from Brand C"
+    },
+    {
+      "image": "https://via.placeholder.com/300",
+      "brand": "Brand D",
+      "subtitle": "A great product from Brand D",
+      "description": "Description for product from Brand D"
+    }
+  ]
+  
