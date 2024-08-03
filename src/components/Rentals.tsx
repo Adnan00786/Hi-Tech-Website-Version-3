@@ -62,7 +62,7 @@ const Rentals = () => {
               </p>
 
               <p className="text-base sm:text-lg md:text-xl text-white mb-4 text-center">
-                Please feel free to contact me if you need any further information.
+                Please feel free to contact, if you need any further information.
               </p>
               <p className="text-base sm:text-lg md:text-xl text-white text-center">
                 Mohammad Jaffar Ahmed<br />
