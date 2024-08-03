@@ -10,21 +10,13 @@ const Hero = () => {
   const [isMuted, setIsMuted] = useState(true);
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const words = ["Sales", "Services", "Repair"];
-  const whatsappNumber = '918885621001'; // Replace with your WhatsApp number
-
-  // Initialize dark mode using useDarkMode hook, enabling it by default
+  const whatsappNumber = '918885621001'; 
 
 
   useEffect(() => {
     // This will run only on the client side after the component mounts
     setIsClient(true);
   }, []);
-
-  const handleClick = () => {
-    if (audio) {
-      audio.play();
-    }
-  };
 
   const toggleMute = () => {
     setIsMuted(!isMuted);
@@ -57,7 +49,7 @@ const Hero = () => {
         <br />
         <button
           className="text-7xl bg-gradient-to-r from-orange-400 to-blue-500 text-white py-3 px-6 rounded-full text-lg font-medium animate-bounce"
-          onClick={handleClick}
+          
         >
           <a href={`https://wa.me/${whatsappNumber}`} target='_blank' className="text-white hover:text-green">Contact Now!</a>
         </button>

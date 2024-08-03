@@ -12,7 +12,7 @@ const fontSans = Plus_Jakarta_Sans({ subsets: ["latin"], weight:['300','400','50
 
 export const metadata: Metadata = {
   title: "Hi Tech Copier Solutions",
-  description: "Hi Tech Copier Solutions offers top-quality Canon, Xerox, and Kyocera copier sales, services, and rentals in Hyderabad. Best prices guaranteed. Call us for the best copier solutions.",
+  description: "Hi Tech Copier Solutions offers top-quality Canon, Xerox, and Kyocera copier sales, services, and rentals in Hyderabad. Best prices guaranteed.",
 };
 
 export default function RootLayout({

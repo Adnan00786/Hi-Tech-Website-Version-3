@@ -41,7 +41,7 @@ function Topbar() {
   };
 
   const handleLinkedinClick = () => {
-    openInNewTab('https://linkedin.com/company/hitechcopier');
+    openInNewTab('https://www.linkedin.com/company/hi-tech-copier');
   };
 
   return (

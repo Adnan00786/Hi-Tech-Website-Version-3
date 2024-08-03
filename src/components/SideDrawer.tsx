@@ -22,6 +22,8 @@ type Product = {
   model: string;
 };
 
+const whatsappNumber = '918885621001'; 
+
 const DrawerContainer = styled.div<{ isOpen: boolean }>`
   position: fixed;
   top: 0;
@@ -170,20 +172,16 @@ const SideDrawer: React.FC<SideDrawerProps> = ({ isOpen, onClose, product }) => 
       {renderDescription()}
       <ButtonGrid>
         <Button>
-          <FaShoppingCart />
-          Order Now
-        </Button>
-        <Button>
-          <FaDownload />
-          Download Brochure
-        </Button>
-        <Button>
           <FaPhone />
+          <a href={`https://wa.me/${whatsappNumber}`} target='_blanck'>
           Contact Now
+          </a>
         </Button>
         <Button>
           <FaTools />
+          <a href={`https://wa.me/${whatsappNumber}`} target='_blanck'>
           Get Service
+          </a>
         </Button>
       </ButtonGrid>
     </DrawerContainer>
