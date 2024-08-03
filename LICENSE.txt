@@ -1,4 +1,11 @@
-Version 1.0, [June 29, 2024]
+Version 2.0, [August 3, 2024]
+
+Updates covered in this Version
+- Major Technical and Visual Bugs Resolved
+- Made the code scalable
+- Product Section removed
+- New /Products Page displaying all products with custom designed SideDrawer
+- Side Drawer is custom designed with modern styling and proper line indexing and line breaks 
 
 Definitions
 "Software" refers to all code, scripts, and associated files developed by Adnan for the Hi-Tech Sales and Services website.
